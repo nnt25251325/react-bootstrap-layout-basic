@@ -1,0 +1,24 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.c-main-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+  background: #fff;
+  box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.10);
+  padding: 0 15px;
+  z-index: 10;
+  .logo {
+    padding-left: 30px;
+  }
+  .box-right {
+    display: flex;
+    .dropdown-account {
+      display: inline-flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+  }
+}
