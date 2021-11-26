@@ -10,9 +10,7 @@ import './style.scss';
 export default ({ children }) => {
   const location = useLocation();
 
-  // const token =
-  //   reactLocalStorage.get(LS_SESSION_TOKEN) ||
-  //   reactSessionStorage.get(LS_SESSION_TOKEN);
+  // const token = localStorage.getItem(LS_SESSION_TOKEN);
 
   // if (location.pathname === '/login' && token) {
   //   return <Redirect to="/" />;
